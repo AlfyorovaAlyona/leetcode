@@ -1,4 +1,3 @@
-from typing import Optional
 from typing import List
 
 class Solution:
@@ -11,7 +10,7 @@ class Solution:
         return False
 
 if __name__ == '__main__':
-    nums = [1,2,3,1,2,3]
+    nums = [1, 2, 3, 1, 2, 3]
     k = 2
     sol = Solution()
     print(sol.containsNearbyDuplicate(nums, k))
